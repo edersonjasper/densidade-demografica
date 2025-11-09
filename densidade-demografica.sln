@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "densidade-demografica.API", "src\densidade-demografica.API\densidade-demografica.API.csproj", "{5CD6F9BD-63AD-E5EB-4FAD-5B99A1BA8107}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7F7F2215-7299-4FA9-9225-02CEF2EE7709}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "densidade-demografica.API.UnitTests", "tests\densidade-demografica.API.UnitTests\densidade-demografica.API.UnitTests.csproj", "{4EF7314A-E554-4ECD-BA77-23BEAD9B6C94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "densidade-demografica.API.IntegrationTests", "tests\densidade-demografica.API.IntegrationTests\densidade-demografica.API.IntegrationTests.csproj", "{0DD15F92-BECD-43F1-921F-A7C0A607F5BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CD6F9BD-63AD-E5EB-4FAD-5B99A1BA8107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD6F9BD-63AD-E5EB-4FAD-5B99A1BA8107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD6F9BD-63AD-E5EB-4FAD-5B99A1BA8107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD6F9BD-63AD-E5EB-4FAD-5B99A1BA8107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EF7314A-E554-4ECD-BA77-23BEAD9B6C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF7314A-E554-4ECD-BA77-23BEAD9B6C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EF7314A-E554-4ECD-BA77-23BEAD9B6C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EF7314A-E554-4ECD-BA77-23BEAD9B6C94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DD15F92-BECD-43F1-921F-A7C0A607F5BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DD15F92-BECD-43F1-921F-A7C0A607F5BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DD15F92-BECD-43F1-921F-A7C0A607F5BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DD15F92-BECD-43F1-921F-A7C0A607F5BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CD6F9BD-63AD-E5EB-4FAD-5B99A1BA8107} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{4EF7314A-E554-4ECD-BA77-23BEAD9B6C94} = {7F7F2215-7299-4FA9-9225-02CEF2EE7709}
+		{0DD15F92-BECD-43F1-921F-A7C0A607F5BE} = {7F7F2215-7299-4FA9-9225-02CEF2EE7709}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10A8496A-4A99-43A1-A159-B70F6B780C1A}
+	EndGlobalSection
+EndGlobal

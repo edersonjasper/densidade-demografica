@@ -1,0 +1,52 @@
+services:
+  densidade-demografica-api:
+    image: densidade-demografica-api:latest
+    container_name: densidade-demografica-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        BUILD_CONFIGURATION: Release
+    ports:
+      - "5000:8080"   # HTTP
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:8080
+    
+    # ============================================
+    # Volumes - Persistir dados CSV
+    # Permite atualizar CSVs sem rebuildar a imagem
+    # ============================================
+    volumes:
+      - ./src/densidade-demografica.API/Data:/app/Data:ro
+          
+    # ============================================
+    # Restart policy
+    # unless-stopped: Reinicia se falhar, exceto se parado manualmente
+    # ============================================
+    restart: unless-stopped
+    
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 512M
+        reservations:
+          cpus: '0.5'
+          memory: 256M    
+    networks:
+      - densidade-network
+
+# ============================================
+# Defini��o de redes
+# ============================================
+networks:
+  densidade-network:
+    driver: bridge

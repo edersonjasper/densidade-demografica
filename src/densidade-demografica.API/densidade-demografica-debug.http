@@ -1,0 +1,8 @@
+@densidade_demografica_HostAddress = https://localhost:7176
+
+
+### Test with explicit headers
+GET {{densidade_demografica_HostAddress}}/WeatherForecast
+Accept: application/json
+
+###
