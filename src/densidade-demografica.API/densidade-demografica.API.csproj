@@ -12,6 +12,31 @@
   <ItemGroup>
     <None Remove="Data\tabela_2_1_AC.csv" />
     <None Remove="Data\tabela_2_1_AL.csv" />
+    <None Remove="Data\tabela_2_1_AM.csv" />
+    <None Remove="Data\tabela_2_1_AP.csv" />
+    <None Remove="Data\tabela_2_1_BA.csv" />
+    <None Remove="Data\tabela_2_1_CE.csv" />
+    <None Remove="Data\tabela_2_1_DF.csv" />
+    <None Remove="Data\tabela_2_1_ES.csv" />
+    <None Remove="Data\tabela_2_1_GO.csv" />
+    <None Remove="Data\tabela_2_1_MA.csv" />
+    <None Remove="Data\tabela_2_1_MG.csv" />
+    <None Remove="Data\tabela_2_1_MS.csv" />
+    <None Remove="Data\tabela_2_1_MT.csv" />
+    <None Remove="Data\tabela_2_1_PA.csv" />
+    <None Remove="Data\tabela_2_1_PB.csv" />
+    <None Remove="Data\tabela_2_1_PE.csv" />
+    <None Remove="Data\tabela_2_1_PI.csv" />
+    <None Remove="Data\tabela_2_1_PR.csv" />
+    <None Remove="Data\tabela_2_1_RJ.csv" />
+    <None Remove="Data\tabela_2_1_RN.csv" />
+    <None Remove="Data\tabela_2_1_RO.csv" />
+    <None Remove="Data\tabela_2_1_RR.csv" />
+    <None Remove="Data\tabela_2_1_RS.csv" />
+    <None Remove="Data\tabela_2_1_SC.csv" />
+    <None Remove="Data\tabela_2_1_SE.csv" />
+    <None Remove="Data\tabela_2_1_SP.csv" />
+    <None Remove="Data\tabela_2_1_TO.csv" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,6 +44,81 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Data\tabela_2_1_AL.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_AM.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_AP.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_BA.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_CE.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_DF.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_ES.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_GO.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_MA.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_MG.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_MS.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_MT.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_PA.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_PB.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_PE.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_PI.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_PR.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_RJ.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_RN.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_RO.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_RR.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_RS.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_SC.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_SE.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_SP.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\tabela_2_1_TO.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
